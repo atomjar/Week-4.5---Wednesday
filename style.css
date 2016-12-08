@@ -24,8 +24,11 @@ h1 {
 
 h2 {
   margin-left: 30em;
+  margin-right: 157px;
+  padding: 16px;
   font-size: 23px;
   font-family: 'Limelight', cursive;
+  border: 2px solid white;
 }
 
 button {
@@ -33,7 +36,7 @@ button {
   border-radius: 6px;
   color: white;
   height: 30px;
-  width: 70px;
+  width: 80px;
   font-size: 17px;
   font-weight: bold;
 }
