@@ -1,0 +1,45 @@
+body {
+  background-image: url(http://wallpapercave.com/wp/Sdw1RGJ.jpg);
+  color: white;
+}
+
+div {
+  margin-left: 20em;
+  margin-top: 13em;
+}
+
+input {
+  margin-left: 68em;
+  padding: 10px 15px;
+}
+
+h1 {
+  color: black;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-left: 30em;
+  font-size: 23px;
+  font-family: 'Limelight', cursive;
+}
+
+button {
+  background-color: green;
+  border-radius: 6px;
+  color: white;
+  height: 30px;
+  width: 70px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  text-shadow: 2px 2px 2px black;
+}
