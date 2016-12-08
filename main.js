@@ -14,7 +14,7 @@ function Deck() {
     var cards = []
     suits.forEach(suit => {
         values.forEach(value => {
-            Card.call(this, suit, value)
+            // Card.call(this, suit, value)
             var card = new Card(suit, value)
             cards.push(card)
         })
@@ -23,7 +23,7 @@ function Deck() {
 }
 
 
-Deck.prototype = Object.create(Card.prototype)
+// Deck.prototype = Object.create(Card.prototype)
 
 Deck.prototype.deal = function() {
     this.dealt = []
@@ -85,3 +85,44 @@ function hitMe() {
     $('#display').append(displayHand)
     $('#input1').val('')
 }
+
+
+
+///////////////////////////////////////////////////
+
+//
+// Card.prototype.numericalValue = function() {
+//         if (["Jack", "Queen", "King"].inclues(this.value) return 10
+//         }
+//         else {
+//             return this.value
+//         }
+//
+//
+//         Hand.prototype.value = function() {
+//             return this.cards.reduce((total, card) => total + card.numericalValue, 0)
+//         }
+//
+//         Hand.prototype.winner = function(otherHand) {
+//                 if (this.value() > 21) {
+//                     return false
+//                 } else if (this.value() <= otherHand.value() > 21 {
+//                         return true
+//                     } else if (this.value() > otherHand.value()) {
+//                         return true
+//                     } else {
+//                         return false
+//                     }
+//                 }
+//
+//
+//                 Or:
+//
+//                     Hand.prototype.winner = function(otherHand) {
+//                         if (this.value() > 21) {
+//                             return false
+//                         } else if (this.value() <= otherHand.value() > 21 {
+//                                 return true
+//                             }
+//                             return (this.value() > otherHand.value()) {}
+//                         }

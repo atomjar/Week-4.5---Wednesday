@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-div {
+#display {
   margin-left: 20em;
   margin-top: 13em;
 }
