@@ -61,7 +61,6 @@ function imIn() {
     var displayHand = $('<p>')
     displayHand.append(hand.show())
     $('#display').append(displayHand)
-    $('#input1').val('')
 }
 
 
