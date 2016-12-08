@@ -75,7 +75,7 @@ function hitMe() {
     }
 
     Hand.prototype.show = function() {
-        return `${this.player}, you drew ${this.cards[0].display()}`
+        return `${this.player} you drew ${this.cards[0].display()}`
     }
 
     var hand = new Hand($('input').val())
